@@ -1,4 +1,12 @@
-@import './markdown.css';
+:root {
+  --background: #222632;
+  --red: #f45e44;
+  --orange: #f2a04c;
+  --yellow: #fcfd65;
+  --green: #8af46a;
+  --blue: #889bfb;
+}
+
 
 html,
 body,
@@ -6,11 +14,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-html.dark {
-  background: #121212;
-  color-scheme: dark;
+  background: var(--background);
 }
 
 #nprogress {

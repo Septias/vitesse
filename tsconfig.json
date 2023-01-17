@@ -30,9 +30,10 @@
   },
   "vueCompilerOptions": {
     "plugins": [
-      "@vue-macros/volar/define-models",
-      "@vue-macros/volar/define-slots"
+      "@vue-macros/volar/define-model",
+      "@vue-macros/volar/define-slots",
+      "@volar/vue-language-plugin-pug"
     ]
   },
-  "exclude": ["dist", "node_modules", "cypress"]
+  "exclude": ["dist", "node_modules"]
 }
