@@ -1,5 +1,5 @@
 import { ViteSSG } from 'vite-ssg'
-import routes from 'virtual:generated-pages'
+import { routes } from 'vue-router/auto-routes'
 import App from './App.vue'
 import type { UserModule } from './types'
 
